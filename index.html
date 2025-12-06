@@ -10,36 +10,74 @@
   <meta name="description" content="Sanni Babatunde Idris — DevSecOps & Cybersecurity researcher. Portfolio & projects." />
 </head>
 <body class="bg-slate-900 text-slate-100 antialiased">
-  <header class="max-w-4xl mx-auto p-6">
+  <header class="max-w-5xl mx-auto p-6">
     <div class="flex items-center justify-between">
-      <h1 class="text-2xl font-semibold tracking-tight">CipherLabs — Sanni Idris</h1>
-      <span class="text-sm text-slate-400">13k followers • DevSecOps</span>
-    </div>
-  </header>
+      <div class="flex items-center gap-4">
+        <!-- Inline SVG logo -->
+        <div class="w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-br from-cyan-400 to-violet-600 shadow-lg">
+          <!-- paste the SVG content here (or keep as an <img> to an svg file) -->
+          <svg id="cipher-badge" width="44" height="44" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-label="CipherLabs logo">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1">
+                <stop offset="0" stop-color="#06b6d4"/>
+                <stop offset="1" stop-color="#7c3aed"/>
+              </linearGradient>
+            </defs>
+            <circle cx="32" cy="32" r="30" fill="url(#g1)" />
+            <g transform="translate(0,0)" fill="#fff" font-family="Inter, system-ui, sans-serif">
+              <path d="M32 12 L44 18 V32 C44 43 36 50 32 52 C28 50 20 43 20 32 V18 Z" fill="rgba(0,0,0,0.08)"/>
+              <path d="M32 12 L44 18 V32 C44 43 36 50 32 52 C28 50 20 43 20 32 V18 Z" fill="none" stroke="#fff" stroke-opacity="0.9" stroke-width="1.2"/>
+              <text x="28" y="36" font-size="14" font-weight="700" fill="#fff" letter-spacing="-0.6">c</text>
+              <text x="36" y="36" font-size="14" font-weight="700" fill="#fff" letter-spacing="-0.6">s</text>
+            </g>
+          </svg>
+        </div>
 
-  <main class="max-w-4xl mx-auto p-6 space-y-6">
-    <section class="bg-slate-800 p-6 rounded-2xl shadow">
-      <h2 class="text-xl font-bold mb-2">What I build</h2>
-      <p class="text-slate-300">Full-stack security tooling focused on reconnaissance, detection and defense. Portfolio contains containerized images for enterprise-ready deployments.</p>
-      <ul class="mt-3 list-disc ml-5 text-slate-300">
-        <li>DefenseOps-Lab — modular hardening & IR tools (container images available)</li>
-        <li>AttackOps-Lab — red team simulation suites</li>
-        <li>ReconOps Dashboard — Flask + Tailwind dashboard (Nmap engine)</li>
-      </ul>
-    </section>
+        <div>
+          <h1 class="text-2xl font-semibold tracking-tight">CipherLabs — Sanni Idris</h1>
+          <p class="text-sm text-slate-400">DevSecOps specialist • Mobile-first labs • 13k followers</p>
+        </div>
+      </div>
 
-    <section class="bg-slate-800 p-6 rounded-2xl shadow">
-      <h3 class="font-semibold">Quick links</h3>
-      <div class="mt-3 flex flex-wrap gap-3">
+      <div class="hidden sm:flex items-center gap-3">
         <a class="px-4 py-2 bg-cyan-500 rounded text-slate-900 font-medium" href="https://github.com/Specia-cipher" target="_blank">GitHub</a>
         <a class="px-4 py-2 border border-slate-700 rounded text-slate-300" href="mailto:sannifreelancer6779@gmail.com">Email</a>
         <a class="px-4 py-2 border border-slate-700 rounded text-slate-300" href="https://linkedin.com/in/Specia-cipher" target="_blank">LinkedIn</a>
       </div>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto p-6 space-y-8">
+    <!-- Hero -->
+    <section class="bg-gradient-to-r from-slate-800/70 to-slate-900/60 p-6 rounded-2xl shadow-lg border border-slate-700">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+        <div>
+          <h2 class="text-3xl font-bold leading-tight">DevSecOps trinity — Recon • Harden • Automate</h2>
+          <p class="mt-3 text-slate-300">I build reproducible offensive and defensive tooling — container images for enterprise deployment, Flask-based dashboards for reconnaissance, and automation for SOC and IR workflows. Below are the three projects I’m highlighting on CipherLabs.</p>
+
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a class="inline-flex items-center gap-2 px-4 py-2 bg-cyan-500 rounded text-slate-900 font-semibold" href="https://github.com/Specia-cipher/DefenseOps-Lab" target="_blank">
+              DefenseOps-Lab
+            </a>
+            <a class="inline-flex items-center gap-2 px-4 py-2 border border-slate-700 rounded text-slate-300" href="https://github.com/Specia-cipher/AttackOps-Lab" target="_blank">AttackOps-Lab</a>
+            <a class="inline-flex items-center gap-2 px-4 py-2 border border-slate-700 rounded text-slate-300" href="https://github.com/Specia-cipher/reconops-dashboard" target="_blank">ReconOps Dashboard</a>
+          </div>
+        </div>
+
+        <div class="bg-slate-800 p-4 rounded-xl">
+          <h3 class="text-lg font-semibold text-white">Quick summary</h3>
+          <ul class="mt-3 space-y-3 text-slate-300 text-sm">
+            <li><strong>DefenseOps-Lab:</strong> containerized hardening, SIEM & IR tools (enterprise images available).</li>
+            <li><strong>AttackOps-Lab:</strong> simulated attack chains for red team exercises and training.</li>
+            <li><strong>ReconOps Dashboard:</strong> Flask UI + Nmap engine — scans, logs, API key management, and scheduled scans roadmapped.</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <footer class="text-center text-slate-500 py-6">
-      © 2025 Sanni Idris • Built in Termux · Mobile-first · Portfolio-driven
-    </footer>
-  </main>
-</body>
-</html>
+    <!-- Projects grid (nice cards) -->
+    <section class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <article class="bg-slate-800 p-4 rounded-xl shadow border border-slate-700">
+        <h4 class="font-semibold">DefenseOps-Lab</h4>
+        <p class="mt-2 text-slate-300 text-sm">10 modular tools for hardening, auditing, and incident response — with container images for enterprise-ready deployment.</p>
+        <a class="mt-4 inline-block text-cyan-400 text-sm" href="https://github.com/Specia-cipher/Defense
