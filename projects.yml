@@ -1,0 +1,51 @@
+projects:
+  - id: defenseops-lab
+    title: DefenseOps-Lab
+    tagline: "Modular hardening & incident-response tools (container images available)"
+    tech: "Python, Docker, Audit tooling, SIEM integrations"
+    repo: "https://github.com/Specia-cipher/defenseops-lab"
+    highlight: "Container images available for enterprise deployment"
+
+  - id: attackops-lab
+    title: AttackOps-Lab
+    tagline: "Red-team simulation suites and adversary emulation"
+    tech: "Python, Shell, MITRE techniques"
+    repo: "https://github.com/Specia-cipher/AttackOps-Lab"
+    highlight: "End-to-end attack chains for training"
+
+  - id: reconops-dashboard
+    title: ReconOps Dashboard
+    tagline: "Flask + Tailwind dashboard with Nmap scan engine"
+    tech: "Flask, Tailwind, SQLite, Nmap"
+    repo: "https://github.com/Specia-cipher/reconops-dashboard"
+    highlight: "JWT-aware UI + API roadmap"
+
+  - id: zerostroke
+    title: ZeroStroke
+    tagline: "Keylogger detection & countermeasure toolkit"
+    tech: "Python, containerized agents"
+    repo: "https://github.com/Specia-cipher/ZeroStroke"
+    highlight: "StrokeCap keylogger research & detectors"
+
+  - id: cryptography-lab
+    title: Cryptography-Lab
+    tagline: "Python implementations: RSA, ECC, AES-256, DH, password manager"
+    tech: "Python, cryptography libs"
+    repo: "https://github.com/Specia-cipher/cryptography-lab"
+    highlight: "CLI-first, audit-friendly implementations"
+
+  - id: network-recon-lab
+    title: Network Recon Lab
+    tagline: "Multi-threaded recon tools with JSON/HTML output"
+    tech: "Python, threading, reporting"
+    repo: "https://github.com/Specia-cipher/network-recon-lab"
+    highlight: "Practical enumeration for pentests"
+
+  - id: backup-cli
+    title: backup-cli
+    tagline: "Small, reliable backup CLI for mobile labs"
+    tech: "Python, shell"
+    repo: "https://github.com/Specia-cipher/backup-cli"
+    highlight: "Designed for Termux/mobile-first workflows"
+
+ 
