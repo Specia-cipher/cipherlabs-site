@@ -8,117 +8,169 @@
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Google Fonts: Inter -->
+  <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
   <style>
     body { font-family: 'Inter', sans-serif; }
   </style>
-
-  <!-- Swiper CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-
-  <meta name="description" content="Security Engineer | Creator of Full-Spectrum Security Platforms (DefenseOps, AttackOps, ZeroStroke) | Google Certified in Cybersecurity" />
 </head>
 
 <body class="bg-slate-950 text-slate-100 antialiased">
 
-  <!-- =============== HERO SECTION =============== -->
-  <header class="max-w-6xl mx-auto p-10 text-center">
-    <div class="flex justify-center mb-6">
-      <div class="w-24 h-24 rounded-full bg-emerald-500 flex items-center justify-center text-slate-900 text-4xl font-bold shadow-lg">
-        C
+<!-- ================= HERO ================= -->
+<header class="max-w-6xl mx-auto p-10 text-center">
+  <div class="flex justify-center mb-6">
+    <div class="w-24 h-24 rounded-full bg-emerald-500 flex items-center justify-center text-slate-900 text-4xl font-extrabold shadow-lg">
+      C
+    </div>
+  </div>
+
+  <h1 class="text-5xl font-extrabold tracking-tight">Cipher Security</h1>
+  <p class="text-slate-400 mt-3 text-xl">
+    Sanni Idris • Security Engineer • DevSecOps Specialist
+  </p>
+
+  <p class="max-w-3xl mx-auto mt-6 text-slate-300 text-lg leading-relaxed">
+    I build full-spectrum security platforms that simulate attacks, automate defenses,
+    and detect threats — designed for real-world use, not theory.
+  </p>
+
+  <div class="mt-8 flex flex-wrap justify-center gap-4">
+    <a href="https://github.com/Specia-cipher" target="_blank"
+       class="px-5 py-2 bg-emerald-500 rounded-lg text-slate-900 font-semibold hover:bg-emerald-400">
+      GitHub
+    </a>
+    <a href="mailto:sannifreelancer6779@gmail.com"
+       class="px-5 py-2 border border-slate-700 rounded-lg text-slate-300 hover:text-emerald-400">
+      Email
+    </a>
+    <a href="https://linkedin.com/in/sanni-idris-89917a262" target="_blank"
+       class="px-5 py-2 border border-slate-700 rounded-lg text-slate-300 hover:text-emerald-400">
+      LinkedIn
+    </a>
+  </div>
+</header>
+
+<!-- ================= PROJECTS CAROUSEL ================= -->
+<section class="max-w-6xl mx-auto px-6 py-14">
+  <h2 class="text-3xl font-bold mb-4 text-center">Featured Projects</h2>
+  <p class="text-slate-400 mb-10 text-center">
+    Flagship platforms blending offense, defense, and countermeasure research.
+  </p>
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+      <!-- CARD -->
+      <div class="swiper-slide">
+        <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 h-full">
+          <div class="flex items-center gap-3 mb-4 text-emerald-400">
+            <i data-lucide="shield"></i>
+            <h3 class="font-bold text-lg">DefenseOps Lab</h3>
+          </div>
+          <p class="text-slate-400 text-sm">
+            Containerized SOC simulation with IDS, scanners, log analysis,
+            threat feeds, and IR orchestration.
+          </p>
+          <a href="https://github.com/Specia-cipher/DefenseOps-lab" target="_blank"
+             class="inline-block mt-4 text-emerald-400 text-sm">
+            View on GitHub →
+          </a>
+        </div>
       </div>
-    </div>
 
-    <h1 class="text-5xl font-extrabold tracking-tight">Cipher Security</h1>
-    <p class="text-slate-400 mt-3 text-xl">Sanni Idris • Security Engineer • DevSecOps Specialist • Google Certified in Cybersecurity</p>
-
-    <p class="max-w-3xl mx-auto mt-6 text-slate-300 text-lg leading-relaxed">
-      I build full-spectrum security platforms that simulate attacks, automate defenses, and detect threats. 
-      My journey began in 2023 with the Google Cybersecurity Certificate, and since then I’ve created 
-      practical systems like <strong>DefenseOps Lab</strong>, <strong>AttackOps Lab</strong>, and <strong>ZeroStroke</strong> — 
-      projects designed to teach, defend, and innovate.
-    </p>
-
-    <div class="mt-8 flex flex-wrap justify-center gap-4">
-      <a class="px-5 py-2 bg-emerald-500 rounded-lg text-slate-900 font-semibold hover:bg-emerald-400 transition" href="https://github.com/Specia-cipher" target="_blank">GitHub</a>
-      <a class="px-5 py-2 border border-slate-700 rounded-lg text-slate-300 hover:text-emerald-400 transition" href="mailto:sannifreelancer6779@gmail.com">Email</a>
-      <a class="px-5 py-2 border border-slate-700 rounded-lg text-slate-300 hover:text-emerald-400 transition" href="https://linkedin.com/in/sanni-idris-89917a262" target="_blank">LinkedIn</a>
-    </div>
-  </header>
-
-  <!-- =============== PROJECTS CAROUSEL =============== -->
-  <section class="max-w-6xl mx-auto px-6 py-12">
-    <h2 class="text-3xl font-bold mb-4 text-center">Featured Projects</h2>
-    <p class="text-slate-400 mb-8 text-center">A curated selection of my flagship platforms — blending offense, defense, and countermeasure research.</p>
-
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-
-        <!-- DefenseOps -->
-        <div class="swiper-slide bg-slate-900 p-6 rounded-2xl border border-slate-800">
-          <h3 class="font-bold text-lg">DefenseOps Lab</h3>
-          <p class="text-slate-400 mt-2 text-sm">Containerized SOC simulation with IDS, scanners, log analysis, threat feeds, and incident response orchestration.</p>
-          <a href="https://github.com/Specia-cipher/DefenseOps-lab" target="_blank" class="block mt-4 text-emerald-400 text-sm">View on GitHub →</a>
+      <div class="swiper-slide">
+        <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 h-full">
+          <div class="flex items-center gap-3 mb-4 text-emerald-400">
+            <i data-lucide="crosshair"></i>
+            <h3 class="font-bold text-lg">AttackOps Lab</h3>
+          </div>
+          <p class="text-slate-400 text-sm">
+            Offensive tooling mapped to the MITRE ATT&CK lifecycle
+            for adversary emulation and training.
+          </p>
+          <a href="https://github.com/Specia-cipher/AttackOps-lab" target="_blank"
+             class="inline-block mt-4 text-emerald-400 text-sm">
+            View on GitHub →
+          </a>
         </div>
-
-        <!-- AttackOps -->
-        <div class="swiper-slide bg-slate-900 p-6 rounded-2xl border border-slate-800">
-          <h3 class="font-bold text-lg">AttackOps Lab</h3>
-          <p class="text-slate-400 mt-2 text-sm">Offensive toolkit covering the MITRE ATT&CK chain: ReconRaptor, PayloadForge, PhishCraft, ExploitHunter, DropperSim, C2Ghost, DataExfilSim.</p>
-          <a href="https://github.com/Specia-cipher/AttackOps-lab" target="_blank" class="block mt-4 text-emerald-400 text-sm">View on GitHub →</a>
-        </div>
-
-        <!-- ZeroStroke -->
-        <div class="swiper-slide bg-slate-900 p-6 rounded-2xl border border-slate-800">
-          <h3 class="font-bold text-lg">ZeroStroke</h3>
-          <p class="text-slate-400 mt-2 text-sm">Keylogger simulation and countermeasure suite. StrokeCap demonstrates offensive capture; ZeroStroke detects and mitigates suspicious activity.</p>
-          <a href="https://github.com/Specia-cipher/ZeroStroke" target="_blank" class="block mt-4 text-emerald-400 text-sm">View on GitHub →</a>
-        </div>
-
-        <!-- ReconOps Dashboard -->
-        <div class="swiper-slide bg-slate-900 p-6 rounded-2xl border border-slate-800">
-          <h3 class="font-bold text-lg">ReconOps Dashboard</h3>
-          <p class="text-slate-400 mt-2 text-sm">Flask + Tailwind reconnaissance dashboard with integrated Nmap engine and reporting.</p>
-          <a href="https://github.com/Specia-cipher/reconops-dashboard" target="_blank" class="block mt-4 text-emerald-400 text-sm">View on GitHub →</a>
-        </div>
-
       </div>
-      <!-- Pagination + Navigation -->
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
+
+      <div class="swiper-slide">
+        <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 h-full">
+          <div class="flex items-center gap-3 mb-4 text-emerald-400">
+            <i data-lucide="keyboard"></i>
+            <h3 class="font-bold text-lg">ZeroStroke</h3>
+          </div>
+          <p class="text-slate-400 text-sm">
+            Keylogger research and detection suite —
+            offensive simulation with defensive mitigation.
+          </p>
+          <a href="https://github.com/Specia-cipher/ZeroStroke" target="_blank"
+             class="inline-block mt-4 text-emerald-400 text-sm">
+            View on GitHub →
+          </a>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800 h-full">
+          <div class="flex items-center gap-3 mb-4 text-emerald-400">
+            <i data-lucide="radar"></i>
+            <h3 class="font-bold text-lg">ReconOps Dashboard</h3>
+          </div>
+          <p class="text-slate-400 text-sm">
+            Flask + Tailwind reconnaissance dashboard
+            with integrated Nmap engine and reporting.
+          </p>
+          <a href="https://github.com/Specia-cipher/reconops-dashboard" target="_blank"
+             class="inline-block mt-4 text-emerald-400 text-sm">
+            View on GitHub →
+          </a>
+        </div>
+      </div>
+
     </div>
-  </section>
 
-  <!-- =============== JOURNEY SECTION =============== -->
-  <section class="max-w-4xl mx-auto px-6 py-12 text-center">
-    <h2 class="text-3xl font-bold mb-4">My Journey</h2>
-    <p class="text-slate-400 leading-relaxed">
-      Introduced to Coursera in early 2023, I completed the Google Cybersecurity Certificate in August. 
-      That milestone sparked my passion and led me to build real-world platforms that blend offensive research 
-      with defensive automation. Each project reflects my drive to turn complex security problems into working systems.
-    </p>
-  </section>
+    <div class="swiper-pagination mt-6"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
 
-  <!-- =============== SKILLS =============== -->
-  <section class="max-w-6xl mx-auto px-6 py-12">
-    <h2 class="text-3xl font-bold mb-6 text-center">Core Skills</h2>
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-      <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 text-center">DevSecOps</div>
-      <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 text-center">Cloud Security</div>
-      <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 text-center">Python & Bash</div>
-      <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 text-center">Threat Detection</div>
-      <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 text-center">Recon Automation</div>
-      <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 text-center">Incident Response</div>
-      <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 text-center">Containerization</div>
-      <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 text-center">Security Research</div>
-      <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 text-center">Cryptography</div>
-      <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 text-center">Technical Writing</div>
-    </div>
-  </section>
+<!-- ================= FOOTER ================= -->
+<footer class="text-center text-slate-600 py-10">
+  <p>© 2025 Cipher Security — Built entirely in Termux</p>
+</footer>
 
-  <!-- =============== FOOTER =============== -->
-  <footer class="text-center text-slate-600 py-10">
-    <p>© 2025 Cipher Security — Built entirely in Termux • DevSecOps by design</p>
-    <p class="mt-2 text-slate-500
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    pagination: { el: ".swiper-pagination", clickable: true },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
+    breakpoints: {
+      640: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 }
+    }
+  });
+
+  lucide.createIcons();
+</script>
+
+</body>
+</html>
